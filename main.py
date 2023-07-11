@@ -1,10 +1,7 @@
-import requests 
+from functions_utils import get_google_info
 
 
 
-data = requests.get("https://www.google.com")
 
 
-print("hola mundo!")
-
-print(data.text)
+print(get_google_info())
